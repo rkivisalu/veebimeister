@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="01309d56-16d6-428f-ab73-97494cdc0031" name="veebimeister" url="http://veebimeister8.ikt.khk.ee">
+        <fileTransfer host="veebimeister8.ikt.khk.ee" port="22" rootFolder="/home/iktweb8" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
