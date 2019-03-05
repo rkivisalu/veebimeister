@@ -10,6 +10,9 @@ body {
 
 .navbar {
     background-color: #0054A5;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-nav {
@@ -24,33 +27,93 @@ body {
     padding: 0 15px 0 15px;
 }
 
-.sticky {
-    position: fixed;
-}
 
 /* Header style */
 
 .jumbotron {
-    height: 50vh;
+    height: 100vh;
     background-image: url("img/book.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    padding-top: 450px;
+    color: #fff;
+    font-size: 72px;
 }
 
 /* content style */
 
 .tutvustus {
-    margin: 0;
+    background-image: url("img/sinine.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+.tutvustus-pealkiri {
+    margin: 150px 0 75px 0;
+
+}
+
+.tutvustus-pealkiri h2 {
+ padding-left: 170px;
+    font-family: Bahnschrift, serif;
+}
+
+.html-pealkiri h3 {
+    padding-right: 270px;
+    font-family: Bahnschrift, serif;
+    text-align: right;
+}
+
+.css-pealkiri h3 {
+    padding-left: 270px;
+    font-family: Bahnschrift, serif;
+}
+
+.tuttext {
+    padding-top: 30px;
+    padding-left: 140px;
+    color: #FFF;
+    width: 50%;
+
+}
+
+
+
+.tuttext-right {
+    padding-top: 30px;
+    padding-right: 140px;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    color: #FFF;
+    width: 50%;
 }
 
 .html {
+    background-image: url("img/kollane.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
     margin-left: auto;
-    margin-right: 0;
+
+
 }
 
-
 .css {
-
+    background-image: url("img/sinine.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 250px;
+    background-size: cover;
 }
 
 /* footer style */
@@ -59,6 +122,10 @@ body {
     padding: 60px 25% 10px 25%;
 }
 
+hr {
+    width: 25%;
+
+}
 /* kontaktivorm style */
 
 /* login style */

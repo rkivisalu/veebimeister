@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Õppekeskkond</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,32 +60,43 @@
 
 <!-- sisu -->
 <div class="jumbotron">
-
+<h1>HTML & CSS Õppekeskkond</h1>
+</div>
+<div class="tutvustus-pealkiri">
+    <h2>Õpikeskkonna tutvustus</h2>
+<div class="col-lg-6 tutvustus">
+    <div class="tuttext">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nobis, quaerat. Atque eos error ex facilis
+        illo inventore magnam quas quibusdam rem veritatis. Laudantium officiis omnis provident quasi. Inventore,
+        tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti distinctio, dolor esse eum excepturi
+        facilis in quod suscipit vel vitae? </p>
+</div>
+</div>
 </div>
 
-    <div class="col-lg-6">
-    <h2>Õpikeskkonna tutvustus</h2>
+<div class="html-pealkiri">
+    <h3><a href="HTML">HTML</a></h3>
+<div class="col-lg-6 html">
+    <div class="tuttext-right">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nobis, quaerat. Atque eos error ex facilis
         illo inventore magnam quas quibusdam rem veritatis. Laudantium officiis omnis provident quasi. Inventore,
         tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti distinctio, dolor esse eum excepturi
         facilis in quod suscipit vel vitae? </p>
     </div>
+</div>
+</div>
 
-        <div class="col-lg-6 html">
-        <h3><a href="HTML">HTML</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nobis, quaerat. Atque eos error ex facilis
-            illo inventore magnam quas quibusdam rem veritatis. Laudantium officiis omnis provident quasi. Inventore,
-            tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti distinctio, dolor esse eum excepturi
-            facilis in quod suscipit vel vitae? </p>
-    </div>
-
-        <div class="col-lg-6 css">
-        <h3><a href="HTML">CSS</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nobis, quaerat. Atque eos error ex facilis
-            illo inventore magnam quas quibusdam rem veritatis. Laudantium officiis omnis provident quasi. Inventore,
-            tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti distinctio, dolor esse eum excepturi
-            facilis in quod suscipit vel vitae? </p>
-    </div>
+<div class="css-pealkiri">
+    <h3><a href="HTML">CSS</a></h3>
+<div class="col-lg-6 css">
+    <div class="tuttext">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nobis, quaerat. Atque eos error ex facilis
+        illo inventore magnam quas quibusdam rem veritatis. Laudantium officiis omnis provident quasi. Inventore,
+        tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti distinctio, dolor esse eum excepturi
+        facilis in quod suscipit vel vitae? </p>
+</div>
+</div>
+</div>
 
 
 <!-- Footer -->
@@ -147,7 +159,8 @@
 
     </div>
     <!-- Footer Links -->
-    <hr class="clearfix w-100 d-md-none pb-3">
+
+    <hr>
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2018 Copyright
     </div>
@@ -156,24 +169,16 @@
 </footer>
 <!-- Footer -->
 
-<script>
-    window.onscroll = function() {myFunction()};
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-</script>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
