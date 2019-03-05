@@ -8,9 +8,46 @@ body {
 
 /* Nav style */
 
+.navbar {
+    background-color: #0054A5;
+}
+
+.navbar-nav {
+    padding-right: 60px;
+}
+
+.navbar-brand {
+    padding-left: 160px;
+}
+
+.navbar-nav li {
+    padding: 0 15px 0 15px;
+}
+
 /* Header style */
 
+.jumbotron {
+    height: 50vh;
+    background-image: url("img/book.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /* content style */
+
+.tutvustus {
+    margin: 0;
+}
+
+.html {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+.css {
+
+}
 
 /* footer style */
 
