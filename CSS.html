@@ -3,56 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Tutvustus <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    HTML
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Õpetus</a>
-                    <a class="dropdown-item" href="#">Näited</a>
-                    <a class="dropdown-item" href="#">Lisa materjal</a>
-                    <a class="dropdown-item" href="#">Ülesanded</a>
-                    <a class="dropdown-item" href="#">Kokkuvõtlik test</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    CSS
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Õpetus</a>
-                    <a class="dropdown-item" href="#">Näited</a>
-                    <a class="dropdown-item" href="#">Lisa materjal</a>
-                    <a class="dropdown-item" href="#">Ülesanded</a>
-                    <a class="dropdown-item" href="#">Kokkuvõtlik test</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Tutvustus <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        HTML
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Õpetus</a>
+                        <a class="dropdown-item" href="#">Näited</a>
+                        <a class="dropdown-item" href="#">Lisa materjal</a>
+                        <a class="dropdown-item" href="#">Ülesanded</a>
+                        <a class="dropdown-item" href="#">Kokkuvõtlik test</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        CSS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Õpetus</a>
+                        <a class="dropdown-item" href="#">Näited</a>
+                        <a class="dropdown-item" href="#">Lisa materjal</a>
+                        <a class="dropdown-item" href="#">Ülesanded</a>
+                        <a class="dropdown-item" href="#">Kokkuvõtlik test</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontakt</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <h2>CSS</h2>
+    <hr>
+    <p>Mis on CSS
+    </p>
+    <h3>Õpetused</h3>
+    <hr>
+    <h5>
+        tekst
+    </h5>
+    <p>
+        The color property is used to set the color of the text. The color is specified by:<br>
+
+        a color name - like "red"<br>
+        a HEX value - like "#ff0000"<br>
+        an RGB value - like "rgb(255,0,0)"<br>
+
+        body {
+        color: blue;
+        }
+    </p>
+    <hr>
+    <h5>
+        Fonts
+    </h5>
+    <p>The font family of a text is set with the font-family property.<br>
+
+        The font-family property should hold several font names as a "fallback" system.<br>
+        If the browser does not support the first font, it tries the next font, and so on.<br>
+
+        p {
+        font-family: "Times New Roman", Times, serif;
+        }
+    </p>
+    <hr>
+    <h5>
+        float
+    </h5>
+    <p>
+        The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.<br>
+
+        The float property can have one of the following values:<br>
+
+        left - The element floats to the left of its container<br>
+        right- The element floats to the right of its container<br>
+        none - The element does not float (will be displayed just where it occurs in the text). This is default
+        inherit - The element inherits the float value of its parent
+    </p>
+    <hr>
+    <h5>
+        Opacity
+    </h5>
+    <p>
+        The opacity property can take a value from 0.0 - 1.0. The lower value, the more transparent:<br>
+
+        img {
+        opacity: 0.5;
+        }
+    </p>
+    <hr>
+    <h5>Margins</h5>
+    <p>
+        The CSS margin properties are used to create space around elements, outside of any defined borders.<br>
+        CSS has properties for specifying the margin for each side of an element:<br>
+
+        margin-top<br>
+        margin-right<br>
+        margin-bottom<br>
+        margin-left<br>
+    </p>
     </div>
-</nav>
+    <div>
+    <h3>
+        Näited
+    </h3>
+    <hr>
+    <h5>text</h5>
+    <p style="color: red">see on punane tekst</p>
+        <p style="color: green">see on roheline tekst</p>
+
+        <hr>
+    <h5>fondid</h5>
+    <p></a> viiakse sind IKT osakonna kodulehele.</p>
+    <hr>
+    <h5>pildid</h5>
+    <img src="img/book.jpg" alt="raamatu pilt"/>
+    <hr>
+    <h5>listid</h5>
+    <ul>
+        <li>See on unordered list</li>
+        <li>See on "< ul >< /ul >" unordered list <ul>
+            <li>See on "< ul >< /ul >" unordered list, mis on teise listi sees.</li>
+            <li>See on unordered list</li>
+        </ul></li>
+    </ul>
+    <ol>
+        <li>See on unordered list</li>
+        <li>See on "< ol >< /ol >" ordered list <ol>
+            <li>See on "< ol >< /ol >" unordered list, mis on teise listi sees.</li>
+            <li>See on unordered list</li>
+        </ol></li>
+    </ol>
+    <hr>
+    <h5>
+        Paragraaf
+    </h5>
+    <p>See on paragraaf. Siia võid kirjutada kogu oma teksti mis tahad. Saab kirjutada nii pikalt kui tahad.</p>
+    <hr>
+    <h3>Lisamaterjal</h3>
+    <a href="https://www.w3schools.com/html/html_basic.asp">W3Schools</a>
+    <a href="https://www.youtube.com/watch?v=pQN-pnXPaVg">Youtube</a>
+    <hr>
+    <h3>
+        Ülesanded
+    </h3>
+    <p>1.Lisa teema pealkiri "HTML" kõige suurema headeriga. Teema alla kirjuta 2 alapealkirja "header" ja "pildi lisamine" h4 headeriga
+        ning alapealkirjade alla kirjuta paragraafiga kuidas neid HTML-s lisada saab.</p>
+    <p>2.Lisa 3 pilti</p>
+    <p>3.Kirjuta paragraaf ja muuda selle sees 2 sõna linkideks</p>
+    <p>Loo unordered list, kus on 3 listi elementi ja teise listi elemendi sees on ordered list 3 elemendiga. </p>
+    <hr>
+    <h3>Test</h3>
+    <form>
+        <label>Mis on kõige suurem headingu suurus</label><br>
+        <input type="checkbox" name="" value="">1<br>
+        <input type="checkbox" name="" value="">2<br>
+        <input type="checkbox" name="" value="">3<br>
+        <input type="checkbox" name="" value="">4<br>
+        <hr>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <hr>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <hr>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <hr>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <input type="checkbox" name="" value=""><br>
+        <hr>
+    </form>
+
 
 
 
