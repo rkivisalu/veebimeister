@@ -60,7 +60,7 @@ body {
 
 }
 
-.tutvustus-pealkiri h2 {
+.container-fluid h2 {
  padding-left: 170px;
     font-family: Bahnschrift, serif;
 }
@@ -76,12 +76,8 @@ body {
     font-family: Bahnschrift, serif;
 }
 
-.tuttext {
-    padding-top: 30px;
-    padding-left: 140px;
+.container-fluid p {
     color: #FFF;
-    width: 50%;
-
 }
 
 
@@ -103,8 +99,11 @@ body {
     width: 100%;
     background-size: cover;
     margin-left: auto;
+}
 
-
+.html-pealkiri img {
+    height: 200px;
+    width: auto;
 }
 
 .css {
@@ -114,6 +113,11 @@ body {
     height: 350px;
     margin-bottom: 250px;
     background-size: cover;
+}
+
+.css-pealkiri img {
+    height: 200px;
+    width: auto;
 }
 
 /* footer style */
