@@ -10,6 +10,7 @@ body {
 
 .navbar {
     background-color: #0054A5;
+    overflow: hidden;
 }
 
 .navbar-nav {
@@ -26,6 +27,7 @@ body {
 
 .sticky {
     position: fixed;
+    width: 100%;
 }
 
 /* Header style */
