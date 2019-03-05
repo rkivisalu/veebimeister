@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -52,10 +53,212 @@
         </div>
     </nav>
 
-    <div class="container">
-        </h2>
-    </div>
+    <div>
+        <h2>HTML</h2>
+        <hr>
+        <p>HTML (ingliskeelne lühend sõnadest HyperText Markup Language ‘hüperteksti märgistuskeel‘) on keel, milles märgendatakse veebilehti.
+            HTML on SGML-i rakendus. HTML-dokumentide (failide) veebist allalaadimiseks ja vaatamiseks kasutatakse veebibrauserit.
+            HTML dokument võib sisaldada silte, lihtteksti ja atribuute. HTML-is kujundatud lehekülge nimetatakse veebileheküljeks.
 
+            HTML koodi kirjutades tuleb meeles pidada “<” ja “>” märgid. Need lähevad iga tag’i ümber.
+
+            Näiteks
+
+            < a > < /a >
+
+            < html >
+
+            < body >
+
+            < /body >
+
+            < p > < /p >
+        </>
+        <h3>Õpetused</h3>
+        <hr>
+        <h5>
+            headings
+        </h5>
+        <p>Heading koosneb 6-st erinevast suurusest: < h1 > Kõige suurem < /h1 >,<br>
+        < h2 >  < /h2 >,<br>
+        < h3 >  < /h3 >,<br>
+        < h4 >  < /h4 >,<br>
+        < h5 >  < /h5 >,<br>
+        < h6 > Kõige väiksem < /h6 >,<br>
+        </p>
+        <hr>
+        <h5>
+            Lingid
+        </h5>
+        <p>teksti või sõnesid saab linkideks teha kui panna nad < a href="lingi aadress"> < /a > sisse.</p>
+        <hr>
+        <h5>
+            Pildid
+        </h5>
+        <p>Pilte saab lisada < img src="" /> abil.</p>
+        <hr>
+        <h5>
+            listid
+        </h5>
+        <p>Liste on 2 erinevat tüüpi: < ul > < /ul > ja < ol > < /ol >.
+            Selleks, et listi sisse midagi lisada tuleb panna see < li >< /li > vahele.
+            Liste saab lisada ka üksteise sisse kui kirjutada uue < ul >< /ul > või < ol >< /ol > < li >< /li > sisse.
+        </p>
+        <hr>
+        <p>Paragraafe saab kirjutada < p > < /p >.</p>
+    </div>
+    <div>
+        <h3>
+            Näited
+        </h3>
+        <hr>
+        <h5>headeri näited:</h5>
+        <h1>< h1 > Kõige suurem < /h1 ></h1>
+        <h2>< h2 > Natukene väiksem < /h2 ></h2><br>
+        <h3>< h3 > Veel väiksem < /h3 ></h3><br>
+        <h4>< h4 > Veel väiksem < /h4 ></h4><br>
+        <h5>< h5 > Veel väiksem < /h5 ></h5><br>
+        <h6>< h6 > Kõige väiksem < /h6 ></h6><br>
+        <hr>
+        <h5>lingid</h5>
+        <p>Kui vajutad <a href="#">SIIA</a> lähed tagasi avalehele ja kui vajutad <a href="#">SIIA</a> viiakse sind IKT osakonna kodulehele.</p>
+        <hr>
+        <h5>pildid</h5>
+        <img src="img/book.jpg" alt="raamatu pilt"/>
+        <hr>
+        <h5>listid</h5>
+        <ul>
+            <li>See on unordered list</li>
+            <li>See on "< ul >< /ul >" unordered list <ul>
+                <li>See on "< ul >< /ul >" unordered list, mis on teise listi sees.</li>
+                <li>See on unordered list</li>
+            </ul></li>
+        </ul>
+        <ol>
+            <li>See on unordered list</li>
+            <li>See on "< ol >< /ol >" ordered list <ol>
+                <li>See on "< ol >< /ol >" unordered list, mis on teise listi sees.</li>
+                <li>See on unordered list</li>
+            </ol></li>
+        </ol>
+        <hr>
+        <h5>
+            Paragraaf
+        </h5>
+        <p>See on paragraaf. Siia võid kirjutada kogu oma teksti mis tahad. Saab kirjutada nii pikalt kui tahad.</p>
+        <hr>
+        <h3>Lisamaterjal</h3>
+        <a href="https://www.w3schools.com/html/html_basic.asp">W3Schools</a>
+        <a href="https://www.youtube.com/watch?v=pQN-pnXPaVg">Youtube</a>
+        <hr>
+        <h3>
+            Ülesanded
+        </h3>
+        <p>1.Lisa teema pealkiri "HTML" kõige suurema headeriga. Teema alla kirjuta 2 alapealkirja "header" ja "pildi lisamine" h4 headeriga
+            ning alapealkirjade alla kirjuta paragraafiga kuidas neid HTML-s lisada saab.</p>
+        <p>2.Lisa 3 pilti</p>
+        <p>3.Kirjuta paragraaf ja muuda selle sees 2 sõna linkideks</p>
+        <p>Loo unordered list, kus on 3 listi elementi ja teise listi elemendi sees on ordered list 3 elemendiga. </p>
+        <hr>
+        <h3>Test</h3>
+        <form>
+            <label>Mis on kõige suurem headingu suurus</label><br>
+            <input type="checkbox" name="" value="">1<br>
+            <input type="checkbox" name="" value="">2<br>
+            <input type="checkbox" name="" value="">3<br>
+            <input type="checkbox" name="" value="">4<br>
+            <hr>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <hr>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <hr>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <hr>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <input type="checkbox" name="" value=""><br>
+            <hr>
+        </form>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small blue pt-4">
+
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 mt-md-0 mt-3">
+
+                        <!-- Content -->
+                        <h5 class="text-uppercase bold">aadress</h5>
+                        <p>Tartu KHK</p>
+                        <p>Kopli 1, 50115 Tartu</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 mb-md-0 mb-3">
+
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Kontakt</h5>
+                        <p>E-post: info@khk.ee</p>
+                        <p>Telefon: 7 361 866</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 mb-md-0 mb-3">
+
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Lingid</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="http://osakond.ikt.khk.ee">http://osakond.ikt.khk.ee</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2018 Copyright
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
 </body>
 
 
